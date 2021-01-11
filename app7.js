@@ -9,7 +9,7 @@ const con = mysql2.createConnection({
     port: 3306,
     user: "Admin",
     password: "Access",
-    database: "GlobalCovidDb"
+    database: "CovidDb"
   })
 //callback
 con.connect((err) =>{
