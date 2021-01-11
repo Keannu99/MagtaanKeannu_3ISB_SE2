@@ -7,7 +7,7 @@ const app = express();
 const con = mysql2.createConnection({
     host: "localhost",
     port: 3306,
-    user: "root",
+    user: "Admin",
     password: "Access",
     database: "GlobalCovidDb"
   })
